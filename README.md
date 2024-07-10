@@ -54,10 +54,5 @@ The output images will be saved in the designated output path you specify.
   - Generator loss: 26.262, Discriminator loss: 0.186, PSNR: 21.142, SSIM: 0.848
 - **Outcome**: Best results with significantly reduced spots and improved image quality.
 
-## Final Model
-After extensive testing and development, Experiment 2 extended to 80 epochs was selected as our final model, due to its promising results. We further refined this by adjusting the learning rates and discriminator update frequency in subsequent iterations.
-Although if we had more compute, combining Experiment 4 and 5 would be even better. We also wanted the test out the 12 channel input method suggested in this paper(Domain-Aware Unsupervised Hyperspectral Reconstruction
-for Aerial Image Dehazing).
-
 ## Conclusion
 Through a systematic approach of experimenting and adjusting the parameters, we successfully enhanced the dehazing capabilities of our GAN model. The final model shows marked improvement in both qualitative and quantitative aspects, providing a robust solution for image dehazing.
